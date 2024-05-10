@@ -18,14 +18,14 @@
 
     <!-- META TAG OG -->
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Dev Burguer - O melhor hamburuger dev!"/>
-    <meta property="og:image" content="https://projeto-cardapio-wine.vercel.app/assets/Logo.png"/>
+    <meta property="og:title" content="Bem Bolado - A melhor hamburgueria!"/>
+    <meta property="og:image" content="https://projeto-cardapio-wine.vercel.app/assets/logo.png"/>
     <meta property="og:description" content="O melhor hamburuger caseiro de verdade!" />
-    <meta property="og:site_name" content="DevBuruger" /> 
+    <meta property="og:site_name" content="BemBolado" /> 
 
   <link rel="stylesheet" href="./styles/output.css" />
 
-  <title>Dev Burguer - A melhor hamburgueria dev!</title>
+  <title>Bem Bolado - A melhor hamburgueria!</title>
 </head>
 <body>
   
@@ -33,15 +33,15 @@
   <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
     <div class="w-full h-full flex flex-col justify-center items-center">
       <img 
-        src="./assets/hamb-1.png"
-        alt="Logo DevBurguer"
+        src="./assets/logo.png"
+        alt="Logo Bem Bolado"
         class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
       />
       <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
-        Dev Burguer
+        Bem Bolado Delivery
       </h1>
 
-      <span class="text-white font-medium">Rua dev 10, Campo Grande - MS</span>
+      <span class="text-white font-medium">SCLRN 705 Bloco E Loja 8 Asa norte Brasília - DF</span>
 
       <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
         <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
@@ -183,7 +183,61 @@
 
     <!-- GRID BEBIDAS -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-        
+       
+      <!-- BEBIDA ITEM -->
+        <div class="flex gap-2 w-full">
+          <img 
+            src="./assets/cafe.png"
+            alt="café"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+  
+          <div class="w-full">
+            <p class="font-bold">Café</p>
+  
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 4</p>
+              <button 
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="cafe"
+                data-price="4"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+  
+          </div>
+  
+        </div>
+        <!-- FIM BEBIDA ITEM --> 
+
+        <!-- BEBIDA ITEM -->
+        <div class="flex gap-2 w-full">
+          <img 
+            src="./assets/agua.png"
+            alt="Água"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+  
+          <div class="w-full">
+            <p class="font-bold">Água</p>
+  
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 3</p>
+              <button 
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Água"
+                data-price="3"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+  
+          </div>
+  
+        </div>
+        <!-- FIM BEBIDA ITEM --> 
+
       <!-- BEBIDA ITEM -->
         <div class="flex gap-2 w-full">
           <img 
